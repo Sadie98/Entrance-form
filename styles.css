@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+#container {
+    margin: 150px auto;
+    width: 400px;
+}
+body {
+    background-image: url(images/dogecoin.jpg);
+}
+h1 {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif
+}
+
+
+input, textarea {
+    padding: 4px;
+    color: #212824;
+    font-size: xx-large;
+    font-weight: lighter;
+    font-family: 'Open Sans', sans-serif;
+    width: 400px;
+    background: #FDC986;
+    border-width: thin;
+    border-color: #FDC986;
+    border-radius: 4px;
+}
+textarea {
+    width: 400px;
+    height: 150px;
+    line-height: 150%;
+}
+.send input {
+    align:"center";
+    width: auto;
+    font-family: 'Open Sans', sans-serif;
+    border-color: #F39720;
+    background-color: #F39720;
+}
+
+ .send input:hover {
+     border: 2px solid #C0C0E3;
+
+ }
