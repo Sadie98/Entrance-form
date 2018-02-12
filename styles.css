@@ -7,15 +7,28 @@
 body {
     background-image: url(images/dogecoin.jpg);
 }
+
 h1 {
     text-align: center;
     font-family: 'Open Sans', sans-serif
 }
-bad {
+.bad {
     font-family: 'Open Sans', sans-serif;
     text-align: center;
     font-weight: bold;
     font-size: xx-large;
+}
+.verCode {
+    float: left;
+    width: 48%;
+}
+.verButton {
+    font-family: 'Open Sans', sans-serif;
+    border: none;
+    background-color: #F39720;
+    opacity: 0.8;
+    float: right;
+    width: 46%;
 }
 input, textarea {
     padding: 4px;
@@ -30,8 +43,9 @@ input, textarea {
     border-top: #FDC986;
     border-left: #FDC986;
     border-radius: 4px;
+    opacity: 0.5;
 }
-greeting {
+.greeting {
     font-family: 'Open Sans', sans-serif;
     font-size: xx-large;
     font-weight: bold;
@@ -49,11 +63,13 @@ textarea {
     align:"center";
     width: auto;
     font-family: 'Open Sans', sans-serif;
-    border-color: #F39720;
+    border: none;
     background-color: #F39720;
+    opacity: 0.8;
 }
-
- .send input:hover {
-     border: 2px solid #C0C0E3;
-
- }
+.send input:hover {
+    background-color: #f48e09;
+}
+.verificationCode.verButton input:hover {
+    background-color: #f48e09;
+}
